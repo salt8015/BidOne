@@ -1,0 +1,124 @@
+/* Global Styles */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    color: #264D73;
+    font-size: 2.5rem;
+  }
+  h2, h3 {
+    color: #444;
+    font-weight: lighter;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+  }
+  @media (min-width: 600px) {
+    body {
+      padding: 2rem;
+    }
+  }
+  body, input[text] {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+  }
+  a {
+    cursor: pointer;
+  }
+
+  button {
+    color: #fff;
+    background-color: #0d6efd;
+    border:none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  button:hover {
+    background-color: #072f5a;
+  }
+  button:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    opacity: .65;
+  }
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color:  #42545C;
+  }
+  nav a.active {
+    background-color: black;
+    color: white;
+  }
+  hr {
+    margin: 1.5rem 0;
+  }
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-group{
+    margin-bottom: 1rem;
+  }
+  .alert-danger{
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #dc3545;
+  }
+  
+  a:focus,
+  button:focus,
+  input:focus,
+  textarea:focus {
+  outline: none;
+  }
+  /*
+  Copyright Google LLC. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at https://angular.io/license
+  */
